@@ -12246,6 +12246,7 @@ body.left_menu .mr_menu {
 .theme_slider {
   position: relative;
   padding: calc(2.3125rem + 10.92857vw) 0 0 0;
+  padding-top: 120px;
 }
 
 @media (min-width: 1400px) {
@@ -16921,10 +16922,10 @@ body.left_menu .mr_menu {
 .team-details .project {
   margin-bottom: 1.875rem;
 }
-
+/* 
 .shop_page {
   padding: 110px 0px;
-}
+} */
 
 /*
  * Shortcode: Shop Sidebar
