@@ -12,15 +12,16 @@
         <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
 
         <!-- Page Title -->
-        <title>Specification - Rubik Laminates</title>    
+        <title>Home - Rubik Laminates</title>    
         
         <!-- Styles Include -->
         <link rel="stylesheet" href="assets/css/style.css">
         
 </head>
 
+
     <body class="bg-dark">
-        
+
         <!-- Preloader -->
         <div id="preloader">
 			<div class="preloader-inner">
@@ -65,7 +66,7 @@
                             </li>
                             <li class="menu-item"><a href="about.html">About Us</a>
                             </li>
-                            <li class="menu-item"><a href="specification.html">Specification</a>
+                            <li class="menu-item active"><a href="specification.html">Specification</a>
                             </li>
                             <li class="menu-item menu-item-has-children"><a href="#">Collection</a>
                                 <ul class="sub-menu">
@@ -128,7 +129,7 @@
                                 </ul>
                             </div>
                             <div class="copyright">
-                                <p>Mrittik 2023. All Rights Reserved</p>
+                                <p>Rubik 2024. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
@@ -139,20 +140,20 @@
         <div class="aside_info_wrapper">
 			<button class="aside_close"><i class="bi bi-x-lg"></i></button>
             <div class="aside_logo">
-                <a href="index.html" class="light_logo"><img src="https://wpthemebooster.com/demo/themeforest/html/mrittik/assets/img/logo-light-lg.svg" alt="logo"></a>
-                <a href="index.html" class="dark_logo"><img src="https://wpthemebooster.com/demo/themeforest/html/mrittik/assets/img/logo-dark-lg.svg" alt="logo"></a>
+                <a href="index.html" class="light_logo"><img src="assets/img/Rubik_White.png" alt="logo"></a>
+                <a href="index.html" class="dark_logo"><img src="assets/img/Rubik_Black.png" alt="logo"></a>
             </div>
 			<div class="aside_info_inner">
-                <p>Mrittik Architects is a full-service design firm providing architecture architecture.</p>
+                <p>Rubik Laminates is a full-service design firm providing architecture architecture.</p>
                 
                 <div class="aside_info_inner_box">
                     <h5>Contact Info</h5>
-                    <p>+123 456 789 33</p>
-                    <p>3 Madison Street, NY <br> United States of America</p>
-                    <p>mrittikarch@gmail.com</p>
+                    <p>+91 95862 43608</p>
+                    <p>Morbi-363641, Morbi, Gujarat</p>
+                    <p>info@rubiklam.com</p>
 
                     <h5>Office Address</h5>
-                    <p>+Time Square, New York <br> USA, 3454</p>
+                    <p>Morbi-363641, Morbi, Gujarat</p>
                 </div>
                 <div class="social_sites">
                     <ul class="d-flex align-items-center justify-content-center">
@@ -164,8 +165,7 @@
                 </div>
 			</div>
 		</div>
-        
-		<!-- Page Header -->
+
         <div class="page_header">
             <div class="page_header_inner">
                 <div class="container">
@@ -173,16 +173,15 @@
                         <h2 class="heading">Specification</h2>
                         <ul class="breadcrumb d-flex align-items-center">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="shop-1.html">Shop</a></li>
-                            <li class="active">Product Details</li>
+                            <li class="active">Specification</li>
                         </ul>
                     </div>
                 </div>
             </div>        
         </div>
-
-		<main class="wrapper">
+        
+        <!-- Main Wrapper-->
+        <main class="wrapper">
 			<section class="product_view bg-dark-200">
                 <div class="container">
                     <div class="row">
@@ -552,9 +551,7 @@
             </section>
 		</main>
 
-		
-			
-		<!-- Footer-->
+        <!-- Footer-->
         <footer class="footer bg-dark-200 box_padding">
             <div class="footer_inner bg-black">
                 <div class="container">
@@ -649,6 +646,7 @@
 
         <!-- Core JS -->
         <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="plugins/jquery_ui/jquery-ui.1.12.1.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
 
         
@@ -657,14 +655,14 @@
         <script src="plugins/swiper/swiper-bundle.min.js"></script>
         
         <!-- Funfacts -->
-        <script src="assets/js/funfacts.js"></script>
+        <!-- <script src="../assets/js/funfacts.js"></script> -->
         
         <!-- Portfolio -->
         <script src="plugins/isotope/isotope.pkgd.min.js"></script>
         <script src="plugins/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="plugins/isotope/packery-mode.pkgd.js"></script>
         <script src="plugins/isotope/tilt.jquery.js"></script>
-        <script src="plugins/isotope/isotope-init.js"></script>
+        <!-- <script src="../plugins/isotope/isotope-init.js"></script> -->
         
         
 
@@ -673,7 +671,18 @@
         
         <!-- Select2 -->
         <script src="plugins/select2/js/select2.min.js"></script>
-        
+
+        <!-- Price Range -->
+        <script src="plugins/price_range/script.js"></script>
+
+        <!-- Product Image Zoom -->
+        <script src="plugins/imagezoom/jquery.zoom.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.product_image_zoom').zoom();
+            });
+        </script>
+
         <!-- AOS effect JS -->
         <script src="plugins/aos/aos.js"></script>
         
