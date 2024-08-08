@@ -16117,7 +16117,7 @@ body.left_menu .mr_menu {
 }
 
 .footer .footer_inner .communication .info_body h5, .footer .footer_inner .communication .info_body .h5 {
-  color: #ffffff;
+  color: #fff !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 2.25rem;
