@@ -11822,7 +11822,11 @@ label {
   width: 0.875rem;
   margin-right: 1.25rem;
 }
-
+@media (max-width: 700px) {
+  .aside_open{
+    display: none;
+  }
+}
 .aside_open .line {
   background-color: #999999;
   width: 100%;
