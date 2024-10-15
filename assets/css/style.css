@@ -21214,3 +21214,10 @@ background-color: white;
 color: black;
 border: 2px solid #acacac;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .new{
+    top: 15% !important;
+  }
+}
