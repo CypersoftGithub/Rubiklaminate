@@ -21230,3 +21230,21 @@ border: 2px solid #acacac;
     top: 15% !important;
   }
 }
+
+.slider_button{
+  height: 750px !important;
+ }
+
+ .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .slider_button{
+   height: 550px !important;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 150px !important;
+  }
+}
