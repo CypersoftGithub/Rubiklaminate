@@ -12032,7 +12032,9 @@ label {
   position: relative;
   text-align: center;
   margin-top: calc(1.5rem + 2.57143vw);
-  margin-bottom: calc(2.125rem + 9vw);
+  margin-bottom: calc(2.125rem + 1vw);
+  max-width: 160px;
+  margin-left: 60px;
 }
 
 @media (min-width: 1400px) {
@@ -12223,6 +12225,13 @@ body.left_menu .mr_menu {
 @media (min-width: 1400px) {
   .divider_bg {
     margin-top: 5.9375rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .divider_bg {
+      display: none;
+
   }
 }
 
@@ -16358,7 +16367,7 @@ body.left_menu .mr_menu {
 }
 
 .about_text_inner {
-  padding-left: 2.8125rem;
+  /* padding-left: 2.8125rem; */
 }
 
 .about_text {
@@ -21213,4 +21222,11 @@ html .njs-sticky-side.image_button_cover a:hover {
 background-color: white;
 color: black;
 border: 2px solid #acacac;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .new{
+    top: 15% !important;
+  }
 }
