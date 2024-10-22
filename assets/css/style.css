@@ -21254,5 +21254,16 @@ border: 2px solid #acacac;
 }
 
 .slider_button_2{
-  bottom: -7px !important;
+  bottom: -10px !important;
+}
+
+
+.tabel-sroll{
+  overflow-x: scroll;
+  overflow: -moz-hidden-unscrollable;
+}
+
+.tabel-sroll::-webkit-scrollbar{
+  width: 0;
+  height: 0;
 }
