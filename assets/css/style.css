@@ -21245,6 +21245,14 @@ border: 2px solid #acacac;
   }
 
   .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    bottom: 150px !important;
+    bottom: 150px ;
   }
+
+  .slider_button_2{
+    bottom: -10px !important;
+  }
+}
+
+.slider_button_2{
+  bottom: -7px !important;
 }
